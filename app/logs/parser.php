@@ -23,9 +23,8 @@ class Parser implements Interfaces\Parser {
 	private $_data;
 
 	private static $_possible_regexp = [
-		'/^([^ ]+) ([^ ]+) ([^ ]+) (\[[^\]]+\]) "(.*) (.*) (.*)" ([0-9\-]+) ([0-9\-]+) "(.*)" "(.*)"$/'
-//		self::PATTERN_BASE,
-//		self::PATTERN_ADDITIONAL,
+		self::PATTERN_BASE,
+		self::PATTERN_ADDITIONAL,
 	];
 
 	/**
